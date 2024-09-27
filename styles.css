@@ -47,7 +47,8 @@ body {
     border-radius: 50px;
 }
 .button{
-    border-radius: 50px;
+    padding: 10px;
+    border-radius: 30px;
     color: #335c67;
 }
 button:hover{
@@ -58,4 +59,13 @@ background-color: #c7f9cc;
     height: 150px;
     border-radius: 50px;
     border: 5px solid #c7f9cc;
+}
+.gallery-sec{
+    width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 50px;
 }
