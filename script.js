@@ -23,7 +23,7 @@ document.getElementById('previous').addEventListener('click', (event) => {
 document.getElementById('next').addEventListener('click', (event) => {
   let element_gallery3 = document.getElementById('gallery');
   element_gallery3.replaceChildren();
-  gallery_img.unshift(gallery_img.pop());
+  gallery_img.push(gallery_img.shift());
   let new_img3 = document.createElement('img');
   new_img3.setAttribute("src", gallery_img.slice(-1)[0]);
 
